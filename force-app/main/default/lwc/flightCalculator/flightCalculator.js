@@ -188,6 +188,34 @@ export default class DetalhesVoo extends LightningElement {
         }
         this.verificarInformacoes();
     }
+    /**
+    * Método: vooData
+    * Retorna os dados do voo formatados para exibição na tabela.
+    * 
+    * @return {Array} - Um array contendo um objeto com os detalhes do voo.
+    */
+    get vooData() {
+        return [{
+            id: 1,
+            aeroportoPartida: `${this.aeroportoPartida.Name}-(${this.aeroportoPartida.CodIata})`,
+            aeroportoChegada: `${this.aeroportoChegada.Name}-(${this.aeroportoChegada.CodIata})`,
+            distancia: this.distancia
+        }];
+    }
+    
+    /**
+    * Método: columns
+    * Retorna a configuração das colunas da tabela de detalhes do voo.
+    * 
+    * @return {Array} - Um array contendo objetos representando as colunas da tabela.
+    */
+    get columns() {
+        return [
+            { label: 'Aeroporto de Partida', fieldName: 'aeroportoPartida', type: 'text' },
+            { label: 'Aeroporto de Chegada', fieldName: 'aeroportoChegada', type: 'text' },
+            { label: 'Distância do Voo (km)', fieldName: 'distancia', type: 'number' }
+        ];
+    }
 
     /**
      * Método: handleSalvarVoo
