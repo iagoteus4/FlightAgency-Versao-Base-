@@ -1,5 +1,6 @@
 # Conhecimentos Abordados:
 - Lightning Web Component (LWC)
+- Classes Apex
 - Apex Trigger
 - Regras de Validação
 - Objetos Personalizados
