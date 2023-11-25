@@ -1,0 +1,18 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005Dn000004XfgWIAS",
+      "createdByName": "José Iago Barbosa Alves",
+      "createdDate": "2023-05-26T13:33:46.000Z",
+      "fileName": "staticresources/FitText.resource",
+      "fullName": "FitText",
+      "id": "081Dn000003jCXOIA2",
+      "lastModifiedById": "005Dn000004XfgWIAS",
+      "lastModifiedByName": "José Iago Barbosa Alves",
+      "lastModifiedDate": "2023-05-26T13:33:46.000Z",
+      "manageableState": "unmanaged",
+      "type": "StaticResource"
+    }
+  ]
+}

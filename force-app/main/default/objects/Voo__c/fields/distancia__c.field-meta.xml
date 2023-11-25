@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>distancia__c</fullName>
+    <description>Distancia de voo</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Distancia entre o aeroporto de partida e o aeroporto de chegada</inlineHelpText>
+    <label>Distancia</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

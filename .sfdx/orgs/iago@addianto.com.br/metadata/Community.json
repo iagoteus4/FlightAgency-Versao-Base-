@@ -1,0 +1,17 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005Dn000004XfgWIAS",
+      "createdByName": "José Iago Barbosa Alves",
+      "createdDate": "2023-01-24T11:44:25.000Z",
+      "fileName": "communities/Internal Zone.community",
+      "fullName": "Internal Zone",
+      "id": "09aDn000000mnL1IAI",
+      "lastModifiedById": "005Dn000004XfgWIAS",
+      "lastModifiedByName": "José Iago Barbosa Alves",
+      "lastModifiedDate": "2023-01-24T11:44:25.000Z",
+      "type": "Community"
+    }
+  ]
+}

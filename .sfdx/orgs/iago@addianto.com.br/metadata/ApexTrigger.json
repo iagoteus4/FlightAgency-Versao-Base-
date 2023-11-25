@@ -1,0 +1,44 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005Dn000004XfgWIAS",
+      "createdByName": "José Iago Barbosa Alves",
+      "createdDate": "2023-05-17T19:01:57.000Z",
+      "fileName": "triggers/LojaTrigger.trigger",
+      "fullName": "LojaTrigger",
+      "id": "01qDn000000ZqyiIAC",
+      "lastModifiedById": "005Dn000004XfgWIAS",
+      "lastModifiedByName": "José Iago Barbosa Alves",
+      "lastModifiedDate": "2023-05-17T21:17:00.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    },
+    {
+      "createdById": "005Dn000004XfgWIAS",
+      "createdByName": "José Iago Barbosa Alves",
+      "createdDate": "2023-05-10T13:13:37.000Z",
+      "fileName": "triggers/SugestaoTrigger.trigger",
+      "fullName": "SugestaoTrigger",
+      "id": "01qDn000000ZqfqIAC",
+      "lastModifiedById": "005Dn000004XfgWIAS",
+      "lastModifiedByName": "José Iago Barbosa Alves",
+      "lastModifiedDate": "2023-05-12T12:13:46.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    },
+    {
+      "createdById": "005Dn000004XfgWIAS",
+      "createdByName": "José Iago Barbosa Alves",
+      "createdDate": "2023-11-25T02:11:55.000Z",
+      "fileName": "triggers/AeroportoTrigger.trigger",
+      "fullName": "AeroportoTrigger",
+      "id": "01qDn000000qp7dIAA",
+      "lastModifiedById": "005Dn000004XfgWIAS",
+      "lastModifiedByName": "José Iago Barbosa Alves",
+      "lastModifiedDate": "2023-11-25T02:11:55.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    }
+  ]
+}

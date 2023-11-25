@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Criado pelo Criador de aplicativo Lightning</description>
+    <flexiPage>Gerenciador_de_voo</flexiPage>
+    <label>Gerenciador de voo</label>
+    <motif>Custom35: Microphone</motif>
+</CustomTab>

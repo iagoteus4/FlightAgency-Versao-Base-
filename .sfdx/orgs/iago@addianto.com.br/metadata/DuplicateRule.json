@@ -1,0 +1,44 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005Dn000004XfgWIAS",
+      "createdByName": "José Iago Barbosa Alves",
+      "createdDate": "2023-01-24T11:44:25.000Z",
+      "fileName": "duplicateRules/Lead.Standard_Lead_Duplicate_Rule.duplicateRule",
+      "fullName": "Lead.Standard_Lead_Duplicate_Rule",
+      "id": "0BmDn000009SecWKAS",
+      "lastModifiedById": "005Dn000004XfgWIAS",
+      "lastModifiedByName": "José Iago Barbosa Alves",
+      "lastModifiedDate": "2023-01-24T11:44:25.000Z",
+      "manageableState": "unmanaged",
+      "type": "DuplicateRule"
+    },
+    {
+      "createdById": "005Dn000004XfgWIAS",
+      "createdByName": "José Iago Barbosa Alves",
+      "createdDate": "2023-01-24T11:44:25.000Z",
+      "fileName": "duplicateRules/Contact.Standard_Contact_Duplicate_Rule.duplicateRule",
+      "fullName": "Contact.Standard_Contact_Duplicate_Rule",
+      "id": "0BmDn000009SecVKAS",
+      "lastModifiedById": "005Dn000004XfgWIAS",
+      "lastModifiedByName": "José Iago Barbosa Alves",
+      "lastModifiedDate": "2023-01-24T11:44:25.000Z",
+      "manageableState": "unmanaged",
+      "type": "DuplicateRule"
+    },
+    {
+      "createdById": "005Dn000004XfgWIAS",
+      "createdByName": "José Iago Barbosa Alves",
+      "createdDate": "2023-01-24T11:44:25.000Z",
+      "fileName": "duplicateRules/Account.Standard_Account_Duplicate_Rule.duplicateRule",
+      "fullName": "Account.Standard_Account_Duplicate_Rule",
+      "id": "0BmDn000009SecUKAS",
+      "lastModifiedById": "005Dn000004XfgWIAS",
+      "lastModifiedByName": "José Iago Barbosa Alves",
+      "lastModifiedDate": "2023-01-24T11:44:25.000Z",
+      "manageableState": "unmanaged",
+      "type": "DuplicateRule"
+    }
+  ]
+}

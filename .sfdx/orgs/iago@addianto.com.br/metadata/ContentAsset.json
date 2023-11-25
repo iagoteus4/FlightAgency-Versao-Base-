@@ -1,0 +1,44 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005Dn000004XfgWIAS",
+      "createdByName": "José Iago Barbosa Alves",
+      "createdDate": "2023-11-22T19:43:29.000Z",
+      "fileName": "contentassets/flightsystemicon.asset",
+      "fullName": "flightsystemicon",
+      "id": "03SDn000001hOIcMAM",
+      "lastModifiedById": "005Dn000004XfgWIAS",
+      "lastModifiedByName": "José Iago Barbosa Alves",
+      "lastModifiedDate": "2023-11-22T19:43:29.000Z",
+      "manageableState": "unmanaged",
+      "type": "ContentAsset"
+    },
+    {
+      "createdById": "005Dn000004XfgWIAS",
+      "createdByName": "José Iago Barbosa Alves",
+      "createdDate": "2023-05-09T17:23:34.000Z",
+      "fileName": "contentassets/locadora.asset",
+      "fullName": "locadora",
+      "id": "03SDn000001QMLCMA4",
+      "lastModifiedById": "005Dn000004XfgWIAS",
+      "lastModifiedByName": "José Iago Barbosa Alves",
+      "lastModifiedDate": "2023-05-09T17:23:34.000Z",
+      "manageableState": "unmanaged",
+      "type": "ContentAsset"
+    },
+    {
+      "createdById": "005Dn000004XfgWIAS",
+      "createdByName": "José Iago Barbosa Alves",
+      "createdDate": "2023-05-08T12:06:48.000Z",
+      "fileName": "contentassets/X01.asset",
+      "fullName": "X01",
+      "id": "03SDn000001QMHoMAO",
+      "lastModifiedById": "005Dn000004XfgWIAS",
+      "lastModifiedByName": "José Iago Barbosa Alves",
+      "lastModifiedDate": "2023-05-08T12:06:48.000Z",
+      "manageableState": "unmanaged",
+      "type": "ContentAsset"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validar_longitude</fullName>
+    <active>true</active>
+    <description>Validar valores inseridos na longitude</description>
+    <errorConditionFormula>AND(
+    NOT(ISBLANK(Longitude__c)),
+    OR(
+        Longitude__c &gt; 180,
+        Longitude__c &lt; -180
+    )
+)</errorConditionFormula>
+    <errorDisplayField>Longitude__c</errorDisplayField>
+    <errorMessage>Longitude: o intervalo válido para valores de longitude é de +180 a -180 graus.</errorMessage>
+</ValidationRule>

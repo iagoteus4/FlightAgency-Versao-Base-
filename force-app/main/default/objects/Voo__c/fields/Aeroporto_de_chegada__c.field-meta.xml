@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Aeroporto_de_chegada__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Aeroporto de chegada</description>
+    <externalId>false</externalId>
+    <inlineHelpText>É onde o voo ira terminar o seu destino</inlineHelpText>
+    <label>Aeroporto de chegada</label>
+    <referenceTo>Aeroporto__c</referenceTo>
+    <relationshipLabel>Voos (Aeroporto de chegada)</relationshipLabel>
+    <relationshipName>Voos1</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

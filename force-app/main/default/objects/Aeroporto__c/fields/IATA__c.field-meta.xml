@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IATA__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>CÓDIGO IATA DO AEROPORTO</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Os aeroportos são identificados por um código de 3 letras chamado IATA (por
+exemplo, o código do aeroporto de Barcelona é BCN)</inlineHelpText>
+    <label>IATA</label>
+    <length>3</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

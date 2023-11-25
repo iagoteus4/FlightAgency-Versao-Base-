@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validar_IATA</fullName>
+    <active>false</active>
+    <errorConditionFormula>!ISBLANK( IATA__c )</errorConditionFormula>
+    <errorMessage>O código IATA está em branco, houve um erro ao processar..</errorMessage>
+</ValidationRule>

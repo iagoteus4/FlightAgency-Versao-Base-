@@ -1,0 +1,60 @@
+<template>
+    <lightning-card title="Registrar um voo">
+        <div class="slds-grid slds-wrap">
+            <!-- Lado Esquerdo: Inputs -->
+            <div class="slds-col slds-size_1-of-2 slds-p-around_medium">
+                <lightning-combobox label="Aeroporto de Partida" 
+                                    placeholder="Selecione o Aeroporto de Partida" 
+                                    options={opcoesAeroportoPartida}
+                                    value={aeroportoPartidaSelecionado}
+                                    onchange={handleAeroportoPartidaChange}>
+                </lightning-combobox>
+
+                <lightning-combobox label="Aeroporto de Chegada" 
+                                    placeholder="Selecione o Aeroporto de Chegada" 
+                                    options={opcoesAeroportoChegada}
+                                    value={aeroportoChegadaSelecionado}
+                                    onchange={handleAeroportoChegadaChange}>
+                </lightning-combobox>
+                
+                <lightning-dynamic-icon 
+                    type="strength" 
+                    option={etapa} 
+                    alternative-text={etapa}>
+                </lightning-dynamic-icon>
+
+            </div>
+            
+            <!-- Lado Direito: Tabela -->
+            <div class="slds-col slds-size_1-of-2 slds-p-around_medium">
+                <lightning-card if:true={exibirDetalhesVoo} title="Detalhes do Voo">
+                    <div class="slds-p-around_medium">
+                        <table class="slds-table slds-table_bordered slds-table_cell-buffer slds-table_col-bordered">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Aeroporto de Partida</th>
+                                    <th scope="col">Aeroporto de Chegada</th>
+                                    <th scope="col">Distância do Voo (km)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>{aeroportoPartida.Name}-({aeroportoPartida.CodIata})</td>
+                                    <td>{aeroportoChegada.Name}-({aeroportoChegada.CodIata})</td>
+                                    <td>{distancia}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="slds-p-top_medium slds-align_absolute-center">
+                            <lightning-button label="Salvar informações do VOO" 
+                                              variant="brand" 
+                                              onclick={handleSalvarVoo}
+                                              disabled={infobotao}>
+                            </lightning-button>
+                        </div>
+                    </div>
+                </lightning-card>
+            </div>
+        </div>
+    </lightning-card>
+</template>
