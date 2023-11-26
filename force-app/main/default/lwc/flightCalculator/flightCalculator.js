@@ -41,6 +41,7 @@ export default class DetalhesVoo extends LightningElement {
      * Maior problema durante o percurso:
      * - Tive um problema em relação a operação DML de insert.
      * - O log de erro me retornava um erro de "Too Many DML Limit" quando tentavar inserir os dados, no final era só uma notação que eu havia esquecido de tirar(Cacheable=true) do método
+     * O problema foi corrigido lendo a seguinte fonte: https://salesforce.stackexchange.com/questions/348284/lwc-too-many-dml-statements-1
      */
     @track aeroportoPartida = {};
     @track aeroportoChegada = {};
