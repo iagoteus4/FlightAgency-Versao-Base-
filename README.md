@@ -14,4 +14,6 @@
 https://github.com/iagoteus4/FlightAgency-Versao-Base-/assets/59373832/f9b3f5cb-1ab3-49ca-8dd6-a25f94e9f4b9
 
 
+(Não foi usado lightning-record-form por conta da exibição do código IATA) 
+
 
