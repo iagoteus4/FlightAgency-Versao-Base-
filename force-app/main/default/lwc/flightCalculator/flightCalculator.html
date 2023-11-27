@@ -26,14 +26,14 @@
             </div>
             
             <!-- Lado Direito: Tabela -->
-            <div class="slds-col slds-size_1-of-2 slds-p-around_medium">
+            <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2 slds-p-around_medium">
                 <lightning-card if:true={exibirDetalhesVoo} title="Detalhes do Voo">
                     <div class="slds-p-around_medium">
                         <lightning-datatable
-                            key-field="id"
-                            data={vooData}
-                            columns={columns}
-                            hide-checkbox-column
+                                key-field="id"
+                                data={vooData}
+                                columns={columns}
+                                hide-checkbox-column
                         >
                         </lightning-datatable>
                         <div class="slds-p-top_medium slds-align_absolute-center">
